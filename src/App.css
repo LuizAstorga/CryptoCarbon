@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Red+Hat+Text:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --green-mid: #B4DBBB;
+  --green-light: #f9ffed;
+  --green-dark-text: #2B3825;
+  --green-dark-bg: #414F3B;
+}
+
+/* main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh
+} */
+
+html, body {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+.nav-menu {
+  background: var(--green-light);
+  top: 5rem;
+  transition: right 0.3s ease-in;
+}
+.nav-hide {
+  right: -15em;
+}
+.MuiFormControl-root {
+  user-select: none;
+  outline: none;
+}
+.MuiFormControl-root label, .MuiFormControl-root svg, .MuiFormControl-root div{
+  color: var(--green-light);
+  font-weight: bold;
+  font-family: "Baloo 2";
+  font-size: 1.25rem;
+  user-select: none;
+}
+
+.country-card {
+  background: var(--green-dark-bg);
+  box-shadow: 0px 8px 6px rgba(0, 0, 0, 0.25);
+}
+.country-card * {
+  color: var(--green-light);
+}
