@@ -19,7 +19,7 @@ function stopProp(){
   return (
     <nav className='grid grid-cols-5 text-center items-center mb-8 px-2'>
       <div className='width-full flex justify-center'>
-        <img src="/src/assets/logo.svg" className='a w-14' onClick={() => navigate('/')} />
+        <img src="/assets/logo.svg" className='a w-14' onClick={() => navigate('/')} />
       </div>
       <span onClick={() => navigate('/')} className='gradient-text title font-bold text-4xl col-span-3'>CryptoCarbon</span>
       <i onClick={() => {stopProp(); useMenu(!menu)}}  className=" fa-solid fa-bars text-3xl"></i>

@@ -1,10 +1,7 @@
 import React from 'react';
 import './App.css';
-import Carbon from './components/Carbon';
-import Card from './components/IndexCard';
-import Carbonfn from './components/Carbonfn';
-import Index from './Index';
-import Info from './Info';
+import Index from './Index.jsx';
+import Info from './Info.jsx';
 import Calc from './Calc';
 import About from './About';
 import Report from './Report';

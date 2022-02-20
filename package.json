@@ -2,9 +2,10 @@
   "name": "ReplitReactjsProject",
   "version": "0.0.1",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "serve": "vite preview"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "@emotion/react": "^11.7.1",
@@ -20,6 +21,19 @@
     "react-dom": "^17.0.2",
     "react-flag-icon-css": "^1.0.25",
     "react-router-dom": "^6.2.1",
-    "vite": "^2.3.8"
+    "react-scripts": "5.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

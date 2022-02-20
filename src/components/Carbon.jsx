@@ -38,15 +38,15 @@ function getCountry(country){
 
       {/* offset projects */}
       
-      <div class="p-4 m-4 max-w-sm bg-white rounded-lg border shadow-md sm:p-6 dark:bg-gray-800 dark:border-gray-700">
-  <h3 class="mb-3 text-base font-semibold text-gray-900 lg:text-xl dark:text-white">
+      <div className="p-4 m-4 max-w-sm bg-white rounded-lg border shadow-md sm:p-6 dark:bg-gray-800 dark:border-gray-700">
+  <h3 className="mb-3 text-base font-semibold text-gray-900 lg:text-xl dark:text-white">
     Countries Impact towards Carbon Emmissions
   </h3>
-  <p class="text-sm font-normal text-gray-500 dark:text-gray-400">
+  <p className="text-sm font-normal text-gray-500 dark:text-gray-400">
     Breakdown of the top contributors
   </p>
   
-    <ul class="my-4 space-y-3">
+    <ul className="my-4 space-y-3">
       {
               cur_countries.map((c , i) => {
                 let data = getCountry(c[0]);
@@ -60,10 +60,10 @@ function getCountry(country){
     <div>
       <a
         href="#"
-        class="inline-flex items-center text-xs font-normal text-gray-500 hover:underline dark:text-gray-400"
+        className="inline-flex items-center text-xs font-normal text-gray-500 hover:underline dark:text-gray-400"
       >
         <svg
-          class="mr-2 w-3 h-3"
+          className="mr-2 w-3 h-3"
           aria-hidden="true"
           focusable="false"
           data-prefix="far"
