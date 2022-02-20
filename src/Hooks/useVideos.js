@@ -5,7 +5,7 @@ const useVideos = (defaultSearchTerm) => {
   const [videos, setVideos] = useState([]);
   useEffect(() => {
     search(defaultSearchTerm);
-  }, []);
+  });
 
   const search = async (term) => {
     console.log("term=" + term);
