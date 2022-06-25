@@ -14,7 +14,7 @@ import Header from './components/Header';
       
       <div className='flex flex-col'>
         <span className='text-3xl font-bold mb-8 block'>Information</span>
-        <span className='text-6xl mt-8 mb-4'>🖥 ✖ 🪙 = 🥵</span>
+        <span className='text-6xl mt-8 mb-4'>🖥️ ✖ 🪙 = 🥵</span>
         <p className="text-justify text-xl mt-4"><b>The most used cryptocurrencies are the most inefficient. It has to be said.</b> While new coins are use low amounts of energy, the behemoths of Bitcoin and Ethereum use <b>hundreds of kilawatt hours per transaction.</b> This translates to a large carbon footprint for anyone using these cryptocurrencies.</p>
         
         <span className='text-6xl mt-8 mb-4'>💲 → ☀️🌳💚</span>
